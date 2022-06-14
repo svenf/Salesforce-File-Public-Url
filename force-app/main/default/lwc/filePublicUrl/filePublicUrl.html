@@ -1,0 +1,9 @@
+<template>
+    <lightning-card variant="narrow" icon-name="utility:link">
+        <h1 slot="title">{label.FilePublicLink}</h1>                
+        <lightning-button variant="brand" label={label.Generate} onclick={handleGenerateLink} slot="actions"></lightning-button>
+        <p class="slds-p-horizontal_small no-text-overflow">
+            <a href={publicURL}>{publicURL}</a>
+        </p>        
+    </lightning-card> 
+</template>

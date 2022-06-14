@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata"> 
+    <types>
+        <members>Account-Organization Layout</members>
+		<members>Account-Member Layout</members>
+		<members>Account-Partner Layout</members>
+		<members>Contact-Contact Layout</members>
+        <name>Layout</name>
+	</types>
+	<types>
+        <members>Account_Record_Page</members>
+        <name>FlexiPage</name>
+	</types>
+	<types>
+        <members>Contact.Standard_Contact_duplicate_rule</members>
+        <members>*</members>
+        <name>DuplicateRule</name>
+	</types>	
+	<types>
+		<members>Contact.FP_Contact_Layout</members>
+        <members>*</members>
+		<name>CompactLayout</name>
+	</types>
+	<types>
+		<members>logo_rectangular_400x400</members>
+		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>Fost_Plus</members>
+		<members>standard__AllTabSet</members>
+		<members>standard__AppLauncher</members>
+		<members>standard__Chatter</members>
+		<members>standard__Community</members>
+		<members>standard__LightningBolt</members>
+		<members>standard__LightningSales</members>
+		<members>standard__LightningSalesConsole</members>
+		<members>standard__LightningService</members>
+		<members>standard__Marketing</members>
+		<members>standard__Platform</members>
+		<members>standard__Sales</members>
+		<members>standard__SalesforceCMS</members>
+		<members>standard__Service</members>
+		<members>standard__ServiceConsole</members>
+		<name>CustomApplication</name>
+	</types>   
+	<types>
+		<members>Account</members>
+		<members>AccountContactRelation</members>
+		<members>AccountContactRole</members>
+		<members>Activity</members>
+		<members>Asset</members>
+		<members>AssetRelationship</members>
+		<members>AssistantProgress</members>
+		<members>AuthorizationForm</members>
+		<members>AuthorizationFormConsent</members>
+		<members>AuthorizationFormDataUse</members>
+		<members>AuthorizationFormText</members>
+		<members>Campaign</members>
+		<members>CampaignMember</members>
+		<members>Case</members>
+		<members>CaseContactRole</members>
+		<members>ChatterActivity</members>
+		<members>CollaborationGroup</members>
+		<members>CollaborationGroupMember</members>
+		<members>CommSubscription</members>
+		<members>CommSubscriptionChannelType</members>
+		<members>CommSubscriptionConsent</members>
+		<members>CommSubscriptionTiming</members>
+		<members>Confidential_Information__c</members>
+		<members>Contact</members>
+		<members>ContactPointAddress</members>
+		<members>ContactPointConsent</members>
+		<members>ContactPointEmail</members>
+		<members>ContactPointPhone</members>
+		<members>ContactPointTypeConsent</members>
+		<members>ContactRequest</members>
+		<members>ContentVersion</members>
+		<members>Contract</members>
+		<members>ContractContactRole</members>
+		<members>DataUseLegalBasis</members>
+		<members>DataUsePurpose</members>
+		<members>DuplicateRecordItem</members>
+		<members>DuplicateRecordSet</members>
+		<members>EmailMessage</members>
+		<members>EngagementChannelType</members>
+		<members>Event</members>
+		<members>ExchangeUserMapping</members>
+		<members>ExpressionFilter</members>
+		<members>ExpressionFilterCriteria</members>
+		<members>ExternalEventMapping</members>
+		<members>FeedItem</members>
+		<members>Finance_Dossier__c</members>
+		<members>Idea</members>
+		<members>Image</members>
+		<members>Individual</members>
+		<members>Invoice__c</members>
+		<members>Lead</members>
+		<members>Macro</members>
+		<members>MacroAction</members>
+		<members>MacroInstruction</members>
+		<members>MacroUsage</members>
+		<members>MLModel</members>
+		<members>MLModelFactor</members>
+		<members>MLModelFactorComponent</members>
+		<members>Opportunity</members>
+		<members>OpportunityCompetitor</members>
+		<members>OpportunityContactRole</members>
+		<members>OpportunityLineItem</members>
+		<members>Order</members>
+		<members>OrderItem</members>
+		<members>OrgMetricScanResult</members>
+		<members>OrgMetricScanSummary</members>
+		<members>PartnerRole</members>
+		<members>PartyConsent</members>
+		<members>Pricebook2</members>
+		<members>PricebookEntry</members>
+		<members>Product2</members>
+		<members>ProfileSkill</members>
+		<members>ProfileSkillEndorsement</members>
+		<members>ProfileSkillUser</members>
+		<members>PromptAction</members>
+		<members>QuickText</members>
+		<members>QuickTextUsage</members>
+		<members>Recommendation</members>
+		<members>RecordAction</members>
+		<members>RecordMergeHistory</members>
+		<members>Scorecard</members>
+		<members>ScorecardAssociation</members>
+		<members>ScorecardMetric</members>
+		<members>Site</members>
+		<members>SocialPersona</members>
+		<members>SocialPost</members>
+		<members>Solution</members>
+		<members>StreamActivityAccess</members>
+		<members>StreamingChannel</members>
+		<members>Task</members>
+		<members>Topic</members>
+		<members>TopicAssignment</members>
+		<members>User</members>
+		<members>UserProvisioningRequest</members>
+		<members>WorkBadge</members>
+		<members>WorkBadgeDefinition</members>
+		<members>WorkThanks</members>
+	    <name>CustomObject</name>
+	</types>  
+	<types>
+		<members>Confidential_Information__c</members>
+		<members>Finance_Dossier__c</members>
+		<members>Invoice__c</members>
+	    <name>CustomTab</name>
+	</types>   
+	<types>
+		<members>Contact_Record_Page</members>
+		<members>Fost_Plus_UtilityBar</members>
+		<members>LightningSalesConsole_UtilityBar</members>
+		<members>LightningService_UtilityBar</members>
+        <members>*</members>
+		<name>FlexiPage</name>
+	</types>  
+	<types>
+		<members>Account-Account Layout</members>
+		<members>AccountContactRelation-Account Contact Relationship Layout</members>
+		<members>Asset-Asset Layout</members>
+		<members>AssetRelationship-Asset Relationship Layout</members>
+		<members>AuthorizationForm-Authorization Form Layout</members>
+		<members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
+		<members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
+		<members>AuthorizationFormText-Authorization Form Text Layout</members>
+		<members>Campaign-Campaign Layout</members>
+		<members>CampaignMember-Campaign Member Page Layout</members>
+		<members>Case-Case Layout</members>
+		<members>CaseClose-Close Case Layout</members>
+		<members>CommunityMemberLayout-Community Member Layout</members>
+		<members>Confidential_Information__c-Confidential Information Layout</members>
+		<members>Contact-Contact Layout</members>
+		<members>ContactPointAddress-Contact Point Address Layout</members>
+		<members>ContactPointConsent-Contact Point Consent Layout</members>
+		<members>ContactPointEmail-Contact Point Email Layout</members>
+		<members>ContactPointPhone-Contact Point Phone Layout</members>
+		<members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
+		<members>ContentVersion-Content Version Layout</members>
+		<members>Contract-Contract Layout</members>
+		<members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
+		<members>DataUsePurpose-Data Use Purpose Layout</members>
+		<members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+		<members>EmailMessage-Email Message Layout</members>
+		<members>Event-Event Layout</members>
+		<members>FeedItem-Feed Item Layout</members>
+		<members>Finance_Dossier__c-Finance Dossier Layout</members>
+		<members>Global-Global Layout</members>
+		<members>Idea-Idea Layout</members>
+		<members>Individual-Individual Layout</members>
+		<members>Invoice__c-Invoice Layout</members>
+		<members>Lead-Lead Layout</members>
+		<members>Macro-Macro Layout</members>
+		<members>OpportunityLineItem-Opportunity Product Layout</members>
+		<members>Opportunity-Opportunity Layout</members>
+		<members>OrderItem-Order Product Layout</members>
+		<members>Order-Order Layout</members>
+		<members>Pricebook2-Price Book Layout</members>
+		<members>PricebookEntry-Price Book Entry</members>
+		<members>Product2-Product Layout</members>
+		<members>ProfileSkillEndorsement-Endorsement Layout</members>
+		<members>ProfileSkill-Skill Layout</members>
+		<members>ProfileSkillUser-Skill User Layout</members>
+		<members>QuickText-Quick Text Layout</members>
+		<members>ScorecardAssociation-Scorecard Association Layout</members>
+		<members>ScorecardMetric-Scorecard Metric Layout</members>
+		<members>Scorecard-Scorecard Layout</members>
+		<members>SocialPersona-Social Persona Layout</members>
+		<members>SocialPost-Social Post Layout</members>
+		<members>Solution-Solution Layout</members>
+		<members>Task-Task Layout</members>
+		<members>UserAlt-User Profile Layout</members>
+		<members>UserProvAccount-User Provisioning Account Layout</members>
+		<members>UserProvisioningLog-User Provisioning Log Layout</members>
+		<members>UserProvisioningRequest-User Provisioning Request Layout</members>
+		<members>User-User Layout</members>
+		<members>WorkAccess-Access Layout</members>
+		<members>WorkBadge-Badge Received Layout</members>
+		<members>WorkBadgeDefinition-Badge Layout</members>
+		<members>WorkThanks-Thanks Layout</members>
+		<name>Layout</name>
+	</types>    
+	<types>
+		<members>Admin</members>
+		<members>Chatter External User</members>
+		<members>Chatter Free User</members>
+		<members>Chatter Moderator User</members>
+		<members>ContractManager</members>
+		<members>Directie</members>
+		<members>Finance</members>
+		<members>Fost Plus Standard User</members>
+		<members>Guest</members>
+		<members>Guest License User</members>
+		<members>Identity User</members>
+		<members>Legal</members>
+		<members>MarketingProfile</members>
+		<members>Minimum Access - Salesforce</members>
+		<members>ReadOnly</members>
+		<members>SolutionManager</members>
+		<members>Standard</members>
+		<members>StandardAul</members>
+		<name>Profile</name>
+	</types>
+    <types>		
+		<members>Activities</members>
+        <members>EnhancedNotes</members>
+        <members>UserManagement</members>                
+		<name>Settings</name>
+	</types> 
+	<types>
+		<members>Account</members>
+		<members>ActivityRecurrence2</members>
+		<members>Asset</members>
+		<members>AssistantInteraction</members>
+		<members>AssistantProgress</members>
+		<members>AssistantRecommendation</members>
+		<members>AuthorizationForm</members>
+		<members>AuthorizationFormConsent</members>
+		<members>AuthorizationFormDataUse</members>
+		<members>CalendarModel</members>
+		<members>CalendarView</members>
+		<members>Campaign</members>
+		<members>Case</members>
+		<members>CommSubscription</members>
+		<members>CommSubscriptionChannelType</members>
+		<members>CommSubscriptionConsent</members>
+		<members>ComponentResponseCache</members>
+		<members>Contact</members>
+		<members>ContactPointConsent</members>
+		<members>ContactPointTypeConsent</members>
+		<members>ContactRequest</members>
+		<members>DataUseLegalBasis</members>
+		<members>DataUsePurpose</members>
+		<members>EngagementChannelType</members>
+		<members>ExchangeUserMapping</members>
+		<members>ExternalEventMapping</members>
+		<members>Finance_Dossier__c</members>
+		<members>FlowInterview</members>
+		<members>FlowInterviewLog</members>
+		<members>Image</members>
+		<members>Individual</members>
+		<members>Lead</members>
+		<members>ListEmail</members>
+		<members>Macro</members>
+		<members>MacroUsage</members>
+		<members>NotifDeliveryUserPref</members>
+		<members>Opportunity</members>
+		<members>Order</members>
+		<members>PartyConsent</members>
+		<members>ProfileSkill</members>
+		<members>PromptAction</members>
+		<members>QuickText</members>
+		<members>QuickTextUsage</members>
+		<members>RecordMergeHistory</members>
+		<members>ReportResultBlob</members>
+		<members>Scorecard</members>
+		<members>SiqUserBlacklist</members>
+		<members>SocialPost</members>
+		<members>StreamActivityAccess</members>
+		<members>StreamingChannel</members>
+		<members>TodayGoal</members>
+		<members>User</members>
+		<members>UserAppMenuCustomization</members>
+		<members>UserEmailPreferredPerson</members>
+		<members>UserProvisioningRequest</members>
+		<members>WorkAccess</members>
+		<members>WorkBadgeDefinition</members>
+		<members>WorkThanks</members>
+		<name>SharingRules</name>
+	</types>	
+    <version>50.0</version>
+</Package>
